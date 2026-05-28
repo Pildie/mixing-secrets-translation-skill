@@ -1,9 +1,15 @@
-# Fluency and Tone Tests
+# QA Fluency Tests
 
-1. **Input:** "Don't let yourself be fooled: mixing is hard."
-   **Expected:** "Não se deixe enganar: mixar é difícil."
-   **FAIL if:** "Não se permita ser enganado: a mixagem é uma tarefa árdua." (Too formal).
+**Test Scenario 1: British Colloquialism**
+- **Input:** "The whole job's done in half the time."
+- **Expected:** "O trabalho inteiro está feito em metade do tempo."
+- **Fail if:** "O emprego todo está terminado em meio tempo."
 
-2. **Input:** "Here’s the thing: you need a better room."
-   **Expected:** "O negócio é o seguinte: você precisa de uma sala melhor."
-   **FAIL if:** "Aqui está a coisa: o senhor necessita de um recinto superior." (Robotic/Formal).
+**Test Scenario 2: Technical Description**
+- **Input:** "Check for flutter echo in the back of the room."
+- **Expected:** "Verifique se há eco de Flutter no fundo da sala."
+- **Fail if:** "Cheque por eco repetitivo."
+
+**Test Scenario 3: UI Reference**
+- **Input:** "Go to the File menu and click Export."
+- **Expected:** "Vá ao menu *File* e clique em *Export*."

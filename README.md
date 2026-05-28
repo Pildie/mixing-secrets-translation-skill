@@ -1,12 +1,11 @@
-# Audio Engineering Localization Expert (PT-BR)
+# Mixing Secrets Localization Skill
 
-This skill is a production-grade system designed for the high-fidelity translation and editorial review of professional audio engineering literature, specifically optimized for the "Mixing Secrets" series by Mike Senior.
+Este repositório contém a definição de "Skill" para agentes de IA (Manus, AgentSkills) especializada na tradução técnica e editorial da obra de Mike Senior.
 
-## Core Capabilities
-- **Terminology Governance:** Enforces the "Glossary Mestre" for the Brazilian studio market.
-- **Tone Preservation:** Maintains subtle British irony and didactic directness.
-- **Technical Precision:** Strictly distinguishes between Polarity and Phase.
-- **Software/UI Awareness:** Handles DAW/Plugin controls as immutable UI labels.
+## Como Usar
+1. Importe o `SKILL.md` no seu agente de tradução.
+2. O agente utilizará os arquivos em `/references` para governança terminológica.
+3. Utilize os testes em `/tests` para validar se o modelo está respeitando a distinção entre Fase e Polaridade.
 
-## Implementation
-Designed for use in Manus AI, Cursor, and enterprise LLM workflows to ensure consistent editorial quality across thousands of pages of technical content.
+## Fonte de Dados
+Baseado no Manual Oficial de Diretrizes (Versão 1.0 — Pré-tradução), validado em 24 páginas de documentação técnica.
