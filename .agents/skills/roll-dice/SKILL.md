@@ -1,5 +1,5 @@
 ---
-name: mixingsmallstudios
+name: roll-dice
 description: Specialized translation and editorial QA skill for professional audio engineering localization from English to Brazilian Portuguese.
 version: 1.0.0
 author: Editorial Architect
@@ -11,7 +11,6 @@ tags:
 - technical-writing
 schema_version: 1.0
 ---
-
 
 
 # Instructions
